@@ -110,7 +110,7 @@ app.delete("/users/:id", async (req, res) => {
   }
 })
 
-//update user
+//update user - not used at the moment as we decided not to have this feature in frontend
 app.patch("/users/:id", async (req, res) => {
   const { id } = req.params
   const { updatedName } = req.body
